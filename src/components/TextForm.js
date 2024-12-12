@@ -5,7 +5,6 @@ const [text, setText] = useState('Enter text here2');
 const handleUpClick = () => {
   //console.log("Uppercase was clicked");
   let newTextUp = text.toUpperCase();
-  alert("Hello");//12/12/2024-09:01:10PM
   setText(newTextUp);
 }
 const handleLowClick = () => {
