@@ -28,11 +28,12 @@ const handleOnchange = (event) => {
       </div>
       <button className="btn btn-primary my-2" onClick={handleUpClick}>To Upper-Case</button> &nbsp;
       <button className="btn btn-primary" onClick={handleLowClick}>To Lower-Case</button>
+      
     </div>
     <div className="container my-3">
       <h1>Your Text Summary</h1>
       <p>{text.split(" ").length} words and {text.length} characters</p>
-      <p>{0.008 * (text.split(" ").length)} Minutes in read</p>
+      <p>{0.008 * (text.split(" ").length)} Minutes in reading..</p>
       <h2>Preview</h2>
       <p>{text}</p>
     </div>
